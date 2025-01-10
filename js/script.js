@@ -35,7 +35,7 @@ const createVehicle = function (type, numWheels, color) {
 
     for(let vehicle of vehicleRepairList) {
         let li = document.createElement("li");
-        li.innerHTML = `My <span> ${vehicle.type} needs some 💖.`
+        li.innerHTML = `My <span> ${vehicle.type} </span> needs some 💖.`
         repairList.append(li); 
     }
 
